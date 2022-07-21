@@ -1,10 +1,11 @@
 <template>
 <div>
   <h3>Список пользователей</h3>
-  <post-item
+  <PostItem
       v-for="post in posts"
       :post="post"
   />
+  </div>
 </template>
 
 <script>
