@@ -2,6 +2,7 @@
 <div>
   <h3>Список пользователей</h3>
   <PostItem
+      :key = "post.id"
       v-for="post in posts"
       :post="post"
   />
